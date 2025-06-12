@@ -760,10 +760,6 @@ const startProcess = () => {
     _0x347745[_0x5baee6(0x1eb)](0x3e8 + expectWaitForDay);
   const _0x5f479b = _0x347745[_0x5baee6(0x1fb)]();
   step1TimeStamp = _0x5f479b;
-  if (!foundEvent) {
-    pushLikeAFlash(_0x5baee6(0x205));
-    return;
-  }
   pushLikeAFlash(_0x5baee6(0x16e) + _0x221ccc),
     (mainInter = setInterval(() => mainWithTimeFunc(_0x221ccc), 0xc8));
 };
@@ -791,7 +787,6 @@ const mainFunc = () => {
 };
 let isOpenBookingV2 = ![];
 const mainWithTimeFunc = (_0x4a4518) => {
-    if (!foundEvent) return;
     if (isOpenBookingV2) return;
     const _0x436455 = new Date();
     if (_0x436455["getTime"]() < _0x4a4518) return;
