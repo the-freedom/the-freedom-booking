@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "The-Freedom-XYZ",
+    "version": "4.8.0.7",
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "TUVkMVTM2XVxywK7BOuWfJISsLBiOft3.js",
+                "Ayv6YfeRrLEzmmRMx9H8wQdfpXQvsiGK.js",
+                "F4wO1jyjTPA40CMAoQp1qIbQhMHhCf8j.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
